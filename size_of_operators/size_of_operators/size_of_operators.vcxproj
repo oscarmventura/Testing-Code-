@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{dd4e73b0-4ae9-41c6-bde7-f0ea4a1b3aea}</ProjectGuid>
+    <ProjectGuid>{3ecb9f18-1240-4499-af52-ef15fbc738fb}</ProjectGuid>
     <RootNamespace>sizeofoperators</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
