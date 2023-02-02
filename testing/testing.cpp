@@ -21,6 +21,12 @@ int main()
 	long double large_amount{ 2.7e120 };
 	cout << large_amount << " is a very long number" << endl;
 
+	//boolean type
+
+	bool game_over{ false };
+	cout << "The value of GameOver is " << game_over << endl;  //The value of false is = to zero 0
+
+
 	
 	
 	
