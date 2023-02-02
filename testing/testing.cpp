@@ -18,6 +18,9 @@ int main()
 	double pi{ 3.14159 };
 	cout << "PI is " << pi << endl;
 
+	long double large_amount{ 2.7e120 };
+	cout << large_amount << " is a very long number" << endl;
+
 	
 	
 	
