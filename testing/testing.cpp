@@ -26,6 +26,16 @@ int main()
 	bool game_over{ false };
 	cout << "The value of GameOver is " << game_over << endl;  //The value of false is = to zero 0
 
+	//Overflow Example 
+
+	short value1{ 30000 };
+	short value2{ 1000 };
+	short product { value1 * value2 };
+
+	cout << "The sum of" << value1 << "and " << value2 << "is " << product << endl;
+
+
+
 
 	
 	
