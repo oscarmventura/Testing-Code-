@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    cout << "size of information" << endl;
+    cout << "sizeof Details for home Desktop PC" << endl;
     cout << "****************************" << endl;
 
     cout << "char: " << sizeof(char) << " bites" << endl;
