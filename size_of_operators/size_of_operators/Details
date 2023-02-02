@@ -1,0 +1,12 @@
+sizeof Details for home Desktop PC
+****************************
+char: 1 bites
+int: 4 bites
+unsigned int: 4 bites
+short: 2 bites
+long: 4 bites
+long long: 8 bites
+****************************
+float: 4 bites
+double: 8 bites
+long double: 8 bites
