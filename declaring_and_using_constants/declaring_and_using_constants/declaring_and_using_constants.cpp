@@ -29,16 +29,22 @@ int main()
     
     int number_of_rooms{ 0 };
     cin >> number_of_rooms;
+
+    
+    const double price_per_room{ 30.0 }; //don't want to change the price
+    const double sales_rate{ 0.0825 };   //don't want to change the price  
+    const int expiration{ 30 };
+
     
     cout << "You have selected: " << number_of_rooms << " rooms" << endl;
-    cout << "The price per room is: " << 30 << endl;
-    cout << "Cost: $" << 30 * number_of_rooms << endl;
+    cout << "The price per room is: " << price_per_room << endl;
+    cout << "Cost: $" << price_per_room * number_of_rooms << endl;
     
     //Tax Cost
-    cout << "Tax cost: $" << 30 * number_of_rooms * 0.0825 << endl;
+    cout << "Tax cost: $" << price_per_room * number_of_rooms * sales_rate << endl;
     cout << "***********************************************" << endl;
-    cout << "Grand Total: $" << (30 * number_of_rooms) + (30 * number_of_rooms * 0.0825) << endl;
-    cout << "This Estimate is valid for " << 30 <<  " days" << endl;
+    cout << "Grand Total: $" << (price_per_room * number_of_rooms) + (price_per_room * number_of_rooms * sales_rate) << endl;
+    cout << "This Estimate is valid for " << expiration <<  " days" << endl;
        
    
     return 0;
