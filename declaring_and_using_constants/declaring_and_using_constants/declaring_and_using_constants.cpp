@@ -30,7 +30,7 @@ int main()
     int number_of_rooms{ 0 };
     cin >> number_of_rooms;
 
-    
+    //declared Constants 
     const double price_per_room{ 30.0 }; //don't want to change the price
     const double sales_rate{ 0.0825 };   //don't want to change the price  
     const int expiration{ 30 };
