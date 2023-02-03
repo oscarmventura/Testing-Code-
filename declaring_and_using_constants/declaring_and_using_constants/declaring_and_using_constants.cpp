@@ -46,7 +46,6 @@ int main()
     cout << "Grand Total: $" << (price_per_room * number_of_rooms) + (price_per_room * number_of_rooms * sales_rate) << endl;
     cout << "This Estimate is valid for " << expiration <<  " days" << endl;
        
-   
     return 0;
 
 }
