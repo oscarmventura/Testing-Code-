@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f3e76aaf-5ad4-4152-9331-1824514f1f41}</ProjectGuid>
+    <ProjectGuid>{c760ebec-f106-4fe2-abc6-7b3439bb23c6}</ProjectGuid>
     <RootNamespace>declaringandusingconstants</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
