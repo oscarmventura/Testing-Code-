@@ -6,7 +6,7 @@
 Pseudocode:
 
 Prompt the user to enter the numbers of rooms
-Display numbers of tooms
+Display numbers of rooms
 Display price per room
 
 Display cost: (number of rooms * price per room)
@@ -21,9 +21,20 @@ Display Estimate expiration Time : 30 Days
 using namespace std;
 
 
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    cout << "Hello Welcome to Oscar's Carpet Cleaning Services" << endl;
+    cout << "\nHow many rooms would you llike to clean? ";
+    
+    int number_of_rooms{ 0 };
+    cin >> number_of_rooms;
+    
+    cout << "You have selected: " << number_of_rooms << " rooms" << endl;
+    cout << "The price per room is: " << 30 << endl;
+    cout << "Cost: $" << 30 * number_of_rooms << endl;
+
+    
 
    
     return 0;
