@@ -33,6 +33,10 @@ int main()
     cout << "You have selected: " << number_of_rooms << " rooms" << endl;
     cout << "The price per room is: " << 30 << endl;
     cout << "Cost: $" << 30 * number_of_rooms << endl;
+    
+    //Tax Cost
+    cout << "Tax cost: $" << 30 * number_of_rooms * 0.0825 << endl;
+
 
     
 
