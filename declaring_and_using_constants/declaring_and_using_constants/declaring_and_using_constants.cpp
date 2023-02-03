@@ -36,11 +36,10 @@ int main()
     
     //Tax Cost
     cout << "Tax cost: $" << 30 * number_of_rooms * 0.0825 << endl;
-
-
-    
-
-   
+    cout << "***********************************************" << endl;
+    cout << "Grand Total: $" << (30 * number_of_rooms) + (30 * number_of_rooms * 0.0825) << endl;
+    cout << "This Estimate is valid for " << 30 <<  " days" << endl;
+       
    
     return 0;
 
