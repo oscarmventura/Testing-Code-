@@ -46,15 +46,16 @@ int main()
     const int expiration{ 30 };
 
     
-    cout << "You have selected: " << number_of_rooms << " rooms" << endl;
+    cout << "You have selected: " << number_of_rooms << " small rooms" << endl;
+    cout << "You have selected: " << number_of_large_rooms << " large rooms" << endl;
     cout << "The price per small room is: " << price_per_room << endl;
     cout << "The price per large room is: " << price_per_large_rooms << endl;
-    cout << "Cost: $" << (price_per_room * number_of_rooms) + (price_per_large_rooms * number_of_large_rooms) << endl;
+    cout << "Cost: $" << (price_per_room * number_of_rooms) + (price_per_large_rooms * number_of_large_rooms) << endl; //simplification here
     
     //Tax Cost
-    cout << "Tax cost: $" << price_per_room * number_of_rooms * sales_rate << endl;
+    cout << "Tax cost: $" << (price_per_room * number_of_rooms * sales_rate) + (price_per_large_rooms * number_of_large_rooms * sales_rate) << endl; 
     cout << "***********************************************" << endl;
-    cout << "Grand Total: $" << (price_per_room * number_of_rooms) + (price_per_room * number_of_rooms * sales_rate) << endl;
+    cout << "Grand Total: $" << (price_per_room * number_of_rooms) + (price_per_room * number_of_rooms * sales_rate) + (price_per_large_rooms * number_of_large_rooms) + (price_per_large_rooms * number_of_large_rooms * sales_rate) << endl; //simplification here 
     cout << "This Estimate is valid for " << expiration <<  " days" << endl;
        
     return 0;
