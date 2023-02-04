@@ -30,18 +30,19 @@ using namespace std;
 int main()
 {
     cout << "Hello Welcome to Oscar's Carpet Cleaning Services" << endl;
-    cout << "\nHow many small rooms would you like to clean? ";
+    
     int number_of_rooms{ 0 };
+    cout << "\nHow many small rooms would you like to clean? ";
     cin >> number_of_rooms;
     
-    cout << "\nHow many large rooms would you like to clean? ";
     int number_of_large_rooms{ 0 };
+    cout << "\nHow many large rooms would you like to clean? ";
     cin >> number_of_large_rooms;
     
-   
     //declared Constants 
     const double price_per_room{ 30.0 }; 
     const double price_per_large_rooms{ 50.00 }; //New addition  to the program
+    
     const double sales_rate{ 0.0825 };    
     const int expiration{ 30 };
 
@@ -50,12 +51,25 @@ int main()
     cout << "You have selected: " << number_of_large_rooms << " large rooms" << endl;
     cout << "The price per small room is: " << price_per_room << endl;
     cout << "The price per large room is: " << price_per_large_rooms << endl;
-    cout << "Cost: $" << (price_per_room * number_of_rooms) + (price_per_large_rooms * number_of_large_rooms) << endl; //simplification here
+    
+    cout << "Cost: $" 
+         << (price_per_room * number_of_rooms) + 
+            (price_per_large_rooms * number_of_large_rooms) 
+         << endl; 
     
     //Tax Cost
-    cout << "Tax cost: $" << (price_per_room * number_of_rooms * sales_rate) + (price_per_large_rooms * number_of_large_rooms * sales_rate) << endl; 
+    cout << "Tax cost: $" 
+         << ((price_per_room * number_of_rooms * sales_rate) + 
+            (price_per_large_rooms * number_of_large_rooms * sales_rate)) 
+         << endl; 
+
     cout << "***********************************************" << endl;
-    cout << "Grand Total: $" << (price_per_room * number_of_rooms) + (price_per_room * number_of_rooms * sales_rate) + (price_per_large_rooms * number_of_large_rooms) + (price_per_large_rooms * number_of_large_rooms * sales_rate) << endl; //simplification here 
+    cout << "Grand Total: $" << ((price_per_room * number_of_rooms) + 
+            (price_per_large_rooms * number_of_large_rooms)) + (((price_per_room * number_of_rooms) +
+            (price_per_large_rooms * number_of_large_rooms)) * sales_rate)
+         << endl; 
+   
+    
     cout << "This Estimate is valid for " << expiration <<  " days" << endl;
        
     return 0;
