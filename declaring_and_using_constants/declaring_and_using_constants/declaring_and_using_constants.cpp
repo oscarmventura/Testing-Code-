@@ -14,6 +14,11 @@ Display Tax : (number of rooms * price per room * Tax rate)
 Display total estimate: (number of rooms * price per room) + (number of rooms * price per room * Tax rate)
 Display Estimate expiration Time : 30 Days 
 
+Challange 2 
+Gonna add a large room with a different price 
+
+
+
 */
 
 
@@ -25,20 +30,26 @@ using namespace std;
 int main()
 {
     cout << "Hello Welcome to Oscar's Carpet Cleaning Services" << endl;
-    cout << "\nHow many rooms would you llike to clean? ";
-    
+    cout << "\nHow many small rooms would you like to clean? ";
     int number_of_rooms{ 0 };
     cin >> number_of_rooms;
-
+    
+    cout << "\nHow many large rooms would you like to clean? ";
+    int number_of_large_rooms{ 0 };
+    cin >> number_of_large_rooms;
+    
+   
     //declared Constants 
-    const double price_per_room{ 30.0 }; //don't want to change the price
-    const double sales_rate{ 0.0825 };   //don't want to change the price  
+    const double price_per_room{ 30.0 }; 
+    const double price_per_large_rooms{ 50.00 }; //New addition  to the program
+    const double sales_rate{ 0.0825 };    
     const int expiration{ 30 };
 
     
     cout << "You have selected: " << number_of_rooms << " rooms" << endl;
-    cout << "The price per room is: " << price_per_room << endl;
-    cout << "Cost: $" << price_per_room * number_of_rooms << endl;
+    cout << "The price per small room is: " << price_per_room << endl;
+    cout << "The price per large room is: " << price_per_large_rooms << endl;
+    cout << "Cost: $" << (price_per_room * number_of_rooms) + (price_per_large_rooms * number_of_large_rooms) << endl;
     
     //Tax Cost
     cout << "Tax cost: $" << price_per_room * number_of_rooms * sales_rate << endl;
