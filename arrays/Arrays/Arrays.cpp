@@ -10,6 +10,8 @@ int main()
 	cout << "\nThe first vowel is: " << vowels[0] << endl;
 	cout << "The last vowel is: " << vowels[4] << endl;
 
+	cin >> vowels[5]; 
+
 	return 0;
 
 }
