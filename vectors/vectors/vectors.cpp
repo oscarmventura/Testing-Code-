@@ -28,6 +28,19 @@ int main()
 	cout << test_scores.at(0) << endl;
 	cout << test_scores.at(1) << endl;
 	cout << test_scores.at(2) << endl;
+	cout << "\nThere are " << test_scores.size() << " scores in vectors" << endl;
+
+//Changing Vector elements
+	cout << "\nEnter 3 test scores: ";
+	cin >> test_scores.at(0);
+	cin >> test_scores.at(1);
+	cin >> test_scores.at(2);
+
+	cout << "Updated test scores:" << endl;
+	cout << test_scores.at(0) << endl;
+	cout << test_scores.at(1) << endl;
+	cout << test_scores.at(2) << endl;
+
 
 
 	
