@@ -1,20 +1,43 @@
 // vectors.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Oscar M Ventura  
+// Vectors
 
 #include <iostream>
+#include <vector>
+
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	
+	
+	vector <char> vowels{ 'a', 'e', 'i','o', 'u' };
+	cout << vowels[0] << endl;
+	cout << vowels[4] << endl;
+
+
+	vector <int> test_scores{ 100,98,89 };
+
+	cout << "\nTest scores using array syntax:" << endl;
+	cout << test_scores[0] << endl;
+	cout << test_scores[1] << endl;
+	cout << test_scores[2] << endl;
+	
+	cout << "\nTest scores using vector syntax:" << endl;
+
+	cout << test_scores.at(0) << endl;
+	cout << test_scores.at(1) << endl;
+	cout << test_scores.at(2) << endl;
+
+
+	
+	return 0;
+
+	
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
+
+ 
