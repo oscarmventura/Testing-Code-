@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{a5a0c5fd-2cfb-437f-96d9-98ab88ddd7d8}</ProjectGuid>
+    <ProjectGuid>{3d08b1dc-00d9-49c1-8bba-ae60e9998a8b}</ProjectGuid>
     <RootNamespace>vectors</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
