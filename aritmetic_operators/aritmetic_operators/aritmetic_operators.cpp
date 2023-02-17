@@ -3,11 +3,21 @@
 // Aritmetic Operators
 
 #include <iostream>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int num1{ 200 };
+    int num2{ 100 };
 
+    cout << num1 << "+" << num2 << "=" << num1 + num2 << endl;
+
+
+   
+    
+    
+    
+    
     return 0;
 }
 
