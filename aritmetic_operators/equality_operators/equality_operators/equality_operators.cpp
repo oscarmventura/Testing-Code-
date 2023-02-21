@@ -21,11 +21,12 @@ int main()
 	cout << "Comparison result (not equals): " << not_equal_result << endl;
 	
 	*/
-
 	
 	
 	//Will apply to characters too
 
+	/*
+	
 	char char1{}, char2{};
 	cout << "Enter two characteres separated by space: ";
 	cin >> char1 >> char2;
@@ -34,6 +35,15 @@ int main()
 	cout << "Comparison result (equals): " << equal_result << endl;
 	cout << "Comparison result (not equals): " << not_equal_result << endl;
 
+	*/
+
+	double double1{}, double2{};
+	cout << "Enter two doubles separated by space: ";
+	cin >> double1 >> double2;
+	equal_result = (double1 == double2);
+	not_equal_result = (double1 != double2);
+	cout << "Comparison result (equals): " << equal_result << endl;
+	cout << "Comparison result (not equals): " << not_equal_result << endl;
 
 
 
