@@ -24,6 +24,7 @@ int main()
 
 	average = total / count;
 
+	cout << "The 3 numbers were: " << num1 << "," << num2 << ","  << num3 << endl;
 	cout << "The average is: " << average << endl;
 
 	return 0;
