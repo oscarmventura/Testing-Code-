@@ -44,6 +44,9 @@ int main()
    */
     
     //Example 3 - Post- Increment
+    
+    /*
+    
     counter = 10;
     result = 0;
 
@@ -51,10 +54,19 @@ int main()
     result = counter++; //Post-increment
     cout << "Counter: " << counter << endl;
     cout << "Result: " << result << endl;
-
-
    
+   */
 
-    return 0;
+    //Example 4 - 
+    counter = 10;
+    result = 0;
+
+    cout << "Counter: " << counter << endl;
+    result = ++counter + 10;//Pre increment 
+
+    cout << "Counter: " << counter << endl;
+    cout << "Result: " << result << endl;
+        
+        return 0;
 }
 
