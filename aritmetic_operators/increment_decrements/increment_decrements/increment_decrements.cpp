@@ -29,12 +29,26 @@ int main()
 
       
 //Example 2 - preincrement 
+   
+    /*
+    
     counter = 10;
     result = 0;
 
     cout << "Counter: " << counter << endl;
 
     result = ++counter;//Pre-increment
+    cout << "Counter: " << counter << endl;
+    cout << "Result: " << result << endl;
+   
+   */
+    
+    //Example 3 - Post- Increment
+    counter = 10;
+    result = 0;
+
+    cout << "Counter: " << counter << endl;
+    result = counter++; //Post-increment
     cout << "Counter: " << counter << endl;
     cout << "Result: " << result << endl;
 
