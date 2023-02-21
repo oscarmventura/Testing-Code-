@@ -22,9 +22,10 @@ int main()
 
 	double average{ 0.0 };
 
-	average = total / count;
+	average = static_cast<double> (total) / count;
 
-	cout << "The 3 numbers were: " << num1 << "," << num2 << ","  << num3 << endl;
+	cout << "The 3 numbers were: " << num1 << "," << num2 << "," 
+		<< num3 << endl;
 	cout << "The average is: " << average << endl;
 
 	return 0;
