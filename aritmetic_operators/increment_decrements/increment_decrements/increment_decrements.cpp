@@ -58,6 +58,9 @@ int main()
    */
 
     //Example 4 - 
+  
+    /*
+      
     counter = 10;
     result = 0;
 
@@ -66,7 +69,25 @@ int main()
 
     cout << "Counter: " << counter << endl;
     cout << "Result: " << result << endl;
+    
+    */
         
-        return 0;
+    //Example 5
+    counter = 10;
+    result = 0;
+
+    cout << "Counter: " << counter << endl;
+
+    result = counter++ + 10; //Post increment
+    cout << "Counter: " << counter << endl;
+    cout << "Result: " << result << endl;
+    
+    
+    
+    
+    
+    
+    
+    return 0;
 }
 
