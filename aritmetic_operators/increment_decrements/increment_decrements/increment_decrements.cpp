@@ -7,10 +7,13 @@ using namespace std;
 
 int main()
 {
+
     int counter{ 10 };
     int result{ 0 };
 
-    cout << "Counter: " << counter << endl;
+    //Example 1 simple increment
+    /*
+     cout << "Counter: " << counter << endl;
 
     counter = counter + 1;
     cout << "Counter: " << counter << endl;
@@ -20,6 +23,23 @@ int main()
 
     ++counter;
     cout << "Counter: " << counter << endl;
+    
+    */
+    
+
+      
+//Example 2 - preincrement 
+    counter = 10;
+    result = 0;
+
+    cout << "Counter: " << counter << endl;
+
+    result = ++counter;//Pre-increment
+    cout << "Counter: " << counter << endl;
+    cout << "Result: " << result << endl;
+
+
+   
 
     return 0;
 }
