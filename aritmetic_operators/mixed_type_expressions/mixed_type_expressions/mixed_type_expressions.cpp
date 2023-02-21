@@ -12,16 +12,22 @@ Display each of them, aslo the average
 using namespace std;
 int main()
 {
-	int num1{ 0 };
-	int num2{ 0 };
-	int num3{ 0 };
+	int total{};
+	int num1{}, num2{}, num3{};
+	const int count{ 3 };
 
-  
+	cout << "Enter 3 numbers separated by spaces: ";
+	cin >> num1 >> num2 >> num3;
+	total = num1 + num2 + num3;
 
+	double average{ 0.0 };
 
-	int sum_of = 0;
+	average = total / count;
 
+	cout << "The average is: " << average << endl;
 
 	return 0;
+	  
+	 
 }
 
