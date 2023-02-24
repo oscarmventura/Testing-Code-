@@ -12,12 +12,23 @@ int main()
 	const int upper{ 20 };
 
 	//Determine if an entered integer is between two integers
+	/*
 	cout << "Enter an integer - the bounds are " << lower << " and " << upper << ": ";
 	cin >> num;
 
 	bool within_bounds{ false };
 	within_bounds = (num > lower && num < upper);
 	cout << num << " is between " << lower << " and " << upper << " : " << within_bounds << endl;
+
+	*/
+
+	//Determine if an entered integer is outside two other integers
+	cout << "\nEnter an integer - the bounds are " << lower << " and " << upper << ": ";
+	cin >> num;
+	bool outside_bounds{ false };
+	outside_bounds = (num < lower || num > upper);
+	cout << num << " is outside" << lower << " and " << upper << ": " << outside_bounds << endl;
+
 
 	
 	
