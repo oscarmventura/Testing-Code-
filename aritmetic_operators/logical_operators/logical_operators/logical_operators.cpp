@@ -12,7 +12,7 @@ int main()
 	const int upper{ 20 };
 
 	//Determine if an entered integer is between two integers
-	cout << "Enter an integer - the bounds are " << lower << " and " << upper << ":";
+	cout << "Enter an integer - the bounds are " << lower << " and " << upper << ": ";
 	cin >> num;
 
 	bool within_bounds{ false };
