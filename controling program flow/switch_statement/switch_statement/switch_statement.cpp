@@ -16,9 +16,48 @@ int main()
 	case 'a':
 	case 'A':
 		cout << "You need 90 or above, study hard." << endl;
-		//break;
+		break;
+
+	case 'b':
+	case 'B':
+		cout << "You need 80-89" << endl;
+		break;
+	
+	case 'c':
+	case 'C':
+		cout << "You need 70-79." << endl;
+		break;
+
+	case 'd':
+	case 'D':
+		cout << "You need 60-69." << endl;
+		break;
+
+	case 'f':
+	case 'F':
+	{
+		char confirm{};
+		cout << "Are you sure (Y/N): ";
+		cin >> confirm;
+
+		if (confirm == 'y' || confirm == 'Y')
+			cout << "You suck!" << endl;
+		else if (confirm == 'n' || confirm == 'N')
+			cout << "Fo study" << endl;
+		else
+			cout << "Invalid Choice" << endl;
+		
+		
+		break;
+	}
+
+		
+	
+	default:
+		cout << "Please enter A,B,C,D or F" << endl;
 
 	}
+	
 
 	 
 	
