@@ -35,6 +35,7 @@ int main()
 
 	case 'f':
 	case 'F':
+		
 	{
 		char confirm{};
 		cout << "Are you sure (Y/N): ";
@@ -43,11 +44,10 @@ int main()
 		if (confirm == 'y' || confirm == 'Y')
 			cout << "You suck!" << endl;
 		else if (confirm == 'n' || confirm == 'N')
-			cout << "Fo study" << endl;
+			cout << "Go study" << endl;
 		else
 			cout << "Invalid Choice" << endl;
-		
-		
+				
 		break;
 	}
 
@@ -57,9 +57,6 @@ int main()
 		cout << "Please enter A,B,C,D or F" << endl;
 
 	}
-	
-
-	 
 	
 	return 0;
 }
